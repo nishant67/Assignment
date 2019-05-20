@@ -1,0 +1,39 @@
+div {
+    border : 1px solid lightgray;
+    background-color: azure;
+    font-size: 15px;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+}
+ul {
+    padding: 0;
+    margin :0;
+}
+
+.horizontal-list{
+    list-style: none;
+    background-color: #007BAF;
+    padding: 10px 0px 10px 0px;
+}
+.menus {
+    display: inline;    
+    padding: 10px 5px 10px 5px;
+    text-align: center;   
+}
+
+.menus:hover{
+    background-color: brown;
+}
+
+.menus .horizontal-list .menus:hover .vertical-list{
+    visibility:visible;
+}
+
+.vertical-list {
+    display: none;
+    list-style: none;
+}
+
