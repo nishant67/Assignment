@@ -1,39 +1,64 @@
-div {
-    border : 1px solid lightgray;
-    background-color: azure;
-    font-size: 15px;
+* {
+    margin: 0;
+  
 }
 
-.menu {
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.main-div {
     padding: 0;
     margin: 0;
+    width: 100%;
 }
-ul {
+
+.menu-bar {
+    background-color: #88c1d9;
     padding: 0;
-    margin :0;
+    margin: 0;
+    width: 100%;
 }
 
-.horizontal-list{
+.menu-bar>ul {
     list-style: none;
-    background-color: #007BAF;
-    padding: 10px 0px 10px 0px;
-}
-.menus {
-    display: inline;    
-    padding: 10px 5px 10px 5px;
-    text-align: center;   
+    display: block;
+    padding-inline-start: 0px;
+    width:100%;
+    /* padding: 1em; */
 }
 
-.menus:hover{
-    background-color: brown;
+.menu-bar ul>li {
+    color: black;
+    display: inline-block;
+    text-align: left;
+    padding: 1em;
+    position: relative;
 }
 
-.menus .horizontal-list .menus:hover .vertical-list{
-    visibility:visible;
-}
-
-.vertical-list {
+.menu-bar ul>li ul {
     display: none;
-    list-style: none;
+    padding: 0;
+    overflow: visible;
+    position: absolute;
+    top : 38px;
+    left:0px;
+    margin-bottom: 2px; 
 }
 
+
+.menu-bar ul>li:hover {
+    background-color: #412c14;
+    color: white;
+}
+
+.menu-bar ul>li:hover ul {
+    display: block;
+    background-color: #88c1d9;
+}
+
+.menu-bar ul li ul li {
+    display: block;
+    
+}
