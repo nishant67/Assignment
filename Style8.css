@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+header,
+footer {
+    height: 40px;
+    background-color: black;
+}
+
+.background {
+    background-image: url("background-image.png");
+    width: 100%;
+    height: 500px;
+}
+
+.main-block {
+    padding: 0 5% 0 5%;
+    margin: 0;
+    width: 100%;
+}
+
+.top-block {
+    border: 1px solid white;
+    background-color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.top-block-head {
+    margin-bottom: 5px;
+}
+
+.logo-panel {
+    display: inline-block;
+}
+
+.heading {
+    display: inline-block;
+    width: 62%;
+    padding-left: 150px;
+    opacity: 0.8;
+}
+
+.search-panel {
+    display: inline-block;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.top-block-foot {
+    background-color: #9B726E;
+    position: absolutes;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.menu-list {
+    display: inline-block;
+    padding-inline-start: 0px;
+    margin: 0px;
+    margin-block-end: 0;
+    padding: 0 10px 0 0px;
+
+}
+
+.menu-ltem {
+    list-style: none;
+    display: inline-block;
+    border-right: 1px solid white;
+    padding: 0 10px 0 10px;
+    color: white;
+    font-weight: 500px
+}
+
+
+.phone {
+    display: inline-block;
+    color: white;
+    font-weight: 500px;
+    position: relative;
+    right: 10px;
+    float: right;
+}
+
+
+a {
+    color: rgb(51, 37, 36);
+}
+
+button {
+    background-color: #9B726E;
+    border-color: #9B726E;
+    width: 25px;
+    padding: 1px;
+    color: white;
+
+}
+
+
+/* .border {
+    border: 1px solid aqua;
+} */
+
+/* Top Finish */
+
+.body-block {
+    background-color: white;
+    height: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.body-block-left {
+    width: 200px;
+
+    background-color: lightgray
+}
+
+.products-block {
+    margin-top: 5px;
+    border: 1px solid #9B726E;
+
+}
+
+.products-block>ul {
+    margin-block-end: 0;
+}
+
+.product-header {
+    background-color: #9B726E;
+    color: white;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.product-item {
+    list-style: none;
+    margin-bottom: 2px;
+}
+
+img {
+    width:90%;
+}
