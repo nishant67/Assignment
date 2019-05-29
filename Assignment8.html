@@ -4,19 +4,21 @@
 <head>
     <title>Starwest</title>
     <link href="Style8.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 
 <body>
-    <header></header>
     <div class="background">
         <div class="main-block">
             <div class="top-block">
                 <div class="top-block-head">
-                    <div class="logo-panel"><img src="logo.png" /></div>
+                    <div class="company-logo"><img src="logo.png" /></div>
                     <div class="heading">INGREDIENTS DIVISION</div>
                     <div class="search-panel">
                         <div>Starwest sites</div>
-                        <div><a href="">Ingredients</a> | <a href="">Retail</a> | <a href="">Wholesale</a></div>
+                        <div><a href="" class="link-panel">Ingredients</a> | <a href="" class="link-panel">Retail</a> |
+                            <a href="" class="link-panel">Wholesale</a></div>
                         <div><input type="text" placeholder="Search Products" /><button class="go-btn">GO</button></div>
                     </div>
                 </div>
@@ -36,9 +38,8 @@
             <div class="body-block">
                 <div class="body-block-left">
                     <div class="products-block">
-                        <div class="product-header"><b>Products</b>
-                        </div>
-                        <ul>
+                        <div class="product-header"><b>Products</b></div>
+                        <ul class="product-list">
                             <li class="product-item">-Botanical</li>
                             <li class="product-item">-Organic Botanicals</li>
                             <li class="product-item">-Spices</li>
@@ -65,49 +66,85 @@
                         <div class="input-field"><input type="text" placeholder="Name"></div>
                         <div class="input-field"><input type="text" placeholder="Email Address"></div>
                         <button class="sign-up-btn">SIGN UP</button>
+                        <div class="logo-panel">
+                            <span class="qui-logo"><img src="qai logo copy.png"></span><span class="kesar-logo"><img
+                                    src="keser logo copy.png"></span>
+                        </div>
                     </div>
                 </div>
                 <div class="body-block-right">
-                    <img class="food-image" src="cover.png" />
+                    <div class="food-image-block"> <img class="food-image" src="cover.png" /></div>
                     <div class="mid-block">
-                        
-                                <div class="text-block">
-                                    <p>Starwest Botanicals,Inc</p>
-
-                                    <ul>
-                                        <li><small>Manufacturer & processor,with an emphasis on certificated organic ingredients.</small></li>
-                                        <li><small>Manufacturer & processor,with an emphasis on certificated organic ingredients.</small></li>
-                                        <li><small>Manufacturer & processor,with an emphasis on certificated organic ingredients.</small></li>
-                                        <li><small>Manufacturer & processor,with an emphasis on certificated organic ingredients.</small></li>
-                                        <li><small>Manufacturer & processor,with an emphasis on certificated organic ingredients.</small></li>
-                                        <li><small>Manufacturer & processor,with an emphasis on certificated organic ingredients.</small></li>
-                                        <li><small>Manufacturer & processor,with an emphasis on certificated organic ingredients.</small></li>
-                                        <li><small>Manufacturer & processor,with an emphasis on certificated organic ingredients.</small></li>
-                                        <li><small>Manufacturer & processor,with an emphasis on certificated organic ingredients.</small></li>
-                                        <li><small>Manufacturer & processor,with an emphasis on certificated organic ingredients.</small></li>
-                                        <li><small>Manufacturer & processor,with an emphasis on certificated organic ingredients.</small></li>
-                                        <li><small>Manufacturer & processor,with an emphasis on certificated organic ingredients.</small></li>
-                                        
-                                        <li><small></small></li>
-                                        <li><small></small></li>
-                                        <li><small></small></li>
-                                        <li><small></small></li>
-                                        <li><small></small></li>
-                                        <li><small></small></li>
-                                    </ul>
-                                </div>
-                                <div class="mid-right-block">
-                                    <div class="news-block"></div>
-                                    <div class="certification"></div>
-                                </div>
-                        
+                        <div class="text-block">
+                            <p class="starwest-heading">Starwest Botanicals,Inc</p>
+                            <ul class="starwest-list">
+                                <li><i class="fab fa-envira"></i><small>Manufacturer & processor,with an emphasis on
+                                        certificated organic compound
+                                        ingredients.</small></li>
+                                <li><i class="fab fa-envira"></i><small>Manufacturer & processor,with an emphasis on
+                                        certificated organic compound
+                                        ingredients.</small></li>
+                                <li><i class="fab fa-envira"></i><small>Manufacturer & processor,with an emphasis on
+                                        certificated organic compound
+                                        ingredients.</small></li>
+                                <li><i class="fab fa-envira"></i><small>Manufacturer & processor,with an emphasis on
+                                        certificated organic compound
+                                        ingredients.</small></li>
+                                <li><i class="fab fa-envira"></i><small>Manufacturer & processor,with an emphasis on
+                                        certificated organic compound
+                                        ingredients.</small></li>
+                                <li><i class="fab fa-envira"></i><small>Manufacturer & processor,with an emphasis on
+                                        certificated organic compound
+                                        ingredients.</small></li>
+                                <li><i class="fab fa-envira"></i><small>Manufacturer & processor,with an emphasis on
+                                        certificated organic compound
+                                        ingredients.</small></li>
+                            </ul>
+                        </div>
+                        <div class="mid-right-block">
+                            <div class="news-block">
+                                <div class="product-header"><b>LATEST NEWS</b></div>
+                                <div class="news-paragraph"><small>Lorem, ipsum dolor sit amet consectetur adipisicing
+                                        elit. corrupti... <a href="">Read More</a></small></div>
+                                <div class="news-paragraph"><small>Lorem, ipsum dolor sit amet consectetur adipisicing
+                                        elit. corrupti... <a href="">Read More</a></small></div>
+                            </div>
+                            <div class="certification">
+                                <div class="product-header"><b>CERTIFICATION</b></div>
+                                <ul class="certification-list">
+                                    <li class="list-item"><small>-2009 AIB Audit Report</small></li>
+                                    <li class="list-item"><small>-Organic System Plan</small></li>
+                                    <li class="list-item"><small>-Organic Certificate of Compliance</small></li>
+                                    <li class="list-item"><small>-Kosher Certificate</small></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-
                 </div>
 
+                <div class="footer">
+                    <ul class="footer-list">
+                        <li class="footer-list-items">
+                            <img src="logo.png" />
+                        </li>
+                        <li class="footer-list-items">PRODUCTS
+                        </li>
+                        <li class="footer-list-items">
+                            INFO
+                        </li>
+                        <li class="footer-list-items">
+                            STARWEST SITES
+                        </li>
+                        <li class="footer-list-items">
+                            LINKS
+                        </li>
+                        <li class="footer-list-items">
+                            STARWEST SITES
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <footer></footer>
 </body>
 
 </html>
