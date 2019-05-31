@@ -1,0 +1,425 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+.background {
+    background-image: url("background-image.png");
+    width: 100%;
+}
+
+.main-block {
+    padding: 0 10% 0 10%;
+    margin: 0;
+    /* width: 100%; */
+}
+
+.top-block {
+    border: 1px solid white;
+    background-color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.top-block-head {
+    margin-bottom: 5px;
+}
+
+.company-logo {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.heading {
+    display: inline-block;
+    opacity: 0.8;
+    vertical-align: top;
+    padding-top: 20px;
+
+}
+
+.heading-text {
+    display: inline-block;
+    position: absolute;
+    top: 1em;
+    font-size: larger;
+    left: 25em;
+}
+
+.leaves {
+    position: absolute;
+    left: 46em;
+    top: 0;
+    opacity: 0.4;
+}
+
+.leaf-1 {
+    width: 57px;
+    position: absolute;
+}
+
+.leaf-2 {
+    width: 42px;
+    position: absolute;
+    left: 50px;
+}
+
+.search-panel {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    position: absolute;
+    left: calc(53em - 5px);
+}
+
+.search-product {
+    width: 90%;
+}
+
+.top-block-foot {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: cbb5b4;
+    background-image: linear-gradient(#a17a78, #9B726E);
+}
+
+li {
+    list-style: none;
+}
+
+.menu-list {
+    padding-inline-start: 0px;
+    margin: 0px;
+    margin-block-end: 0;
+    padding: 0 10px 0 0px;
+    display: inline-block;
+}
+
+.menu-ltem {
+    display: inline-block;
+    border-right: 1px solid white;
+    padding: 0 10px 0 10px;
+    color: white;
+    font-weight: 500px;
+    padding: 3px 13px 3px 13px;
+    font-weight: bold;
+}
+
+
+.phone {
+    display: inline-block;
+    color: white;
+    font-weight: 500px;
+    position: relative;
+    right: 10px;
+    padding: 3px 0px 3px 13px;
+    float: right;
+}
+
+.starwest-sites {
+    color: #546354;
+    font-weight: bold;
+}
+
+.link-panel {
+    color: #9B726E;
+    font-weight: bold;
+}
+
+.btn-panel {
+    margin-top: 5px;
+}
+
+.go-btn {
+    background-color: #9B726E;
+    border-color: #9B726E;
+    width: 25px;
+    padding: 1px;
+    color: white;
+}
+
+
+/* .border {
+    border: 1px solid aqua;
+} */
+
+/* Top Finish */
+
+.body-block {
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+.body-block-left {
+    width: 240px;
+    padding: 5px 0px 11px 10px;
+    border-top-left-radius: 8px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.products-block {
+    margin-top: 5px;
+    border: 1px solid #9B726E;
+}
+
+.products-block>ul {
+    margin-block-end: 0;
+}
+
+ul {
+    padding-inline-start: 0;
+    margin-block-start: 0;
+}
+
+.product-header {
+    background-color: #9B726E;
+    color: white;
+    width: 100%;
+    padding-left: 5px;
+}
+
+.product-list {
+    line-height: 25px;
+    padding: 10px 0 0 20px;
+
+}
+
+.product-item {
+    list-style: none;
+    margin-bottom: 2px;
+}
+
+.pdf-logo {
+    width: 90%;
+    margin-left: 10px;
+}
+
+.girl-image {
+    margin-top: 5px;
+    border: 1px solid #9B726E;
+    position: relative;
+}
+
+.image-bar {
+    background-color: white;
+    opacity: 0.8;
+    width: 100%;
+    padding-left: 5px;
+}
+
+.assis-header::first-letter {
+    font-size: 130%;
+}
+
+p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.pos-top {
+    position: absolute;
+    top: 0;
+}
+
+.pos-bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.update-block {
+    margin-top: 5px;
+    border: 1px solid #9B726E;
+    margin-bottom: 5px;
+}
+
+.update-paragraph {
+    width: 75%;
+    padding-left: 45px;
+    text-align: center;
+    margin: 10px 0 10px 0;
+
+}
+
+.chkeckbox {
+    padding-left: 50px;
+    margin-bottom: 5px;
+
+}
+
+.input-field {
+    padding-left: 23px;
+    margin-top: 5px;
+}
+
+.sign-up-btn {
+    background-color: #9B726E;
+    border-color: #9B726E;
+    color: white;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+.body-block-right {
+    display: inline-block;
+    width: 75%;
+    vertical-align: top;
+}
+
+
+.food-image-block {
+    border-top-right-radius: 8px;
+    width: 100%;
+    margin-left: 6px;
+    position: relative;
+}
+
+.food-image {
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 100%;
+    margin-left: 6px;
+}
+
+.tag {
+    width: 44%;
+    position: absolute;
+    bottom: 15px;
+    right: 5px;
+    z-index: 1000;
+    background-color: white;
+    padding: 5px;
+    color: black;
+    font-size: 32px;
+    opacity: 0.6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.number-panel {
+    border-bottom-left-radius: 8px;
+    position: absolute;
+    bottom: 4px;
+    left: 6px;
+    background-color: white;
+    padding: 3px;
+    opacity: 0.6;
+}
+
+.text-block {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+}
+
+.starwest-heading {
+    margin-left: 45px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #546354;
+}
+
+.starwest-list {
+    margin-left: 20px;
+    line-height: 30px;
+    margin-block-start: 0;
+}
+
+i.fab.fa-envira {
+    color: #9B726E;
+    margin-right: 10px;
+}
+
+.mid-right-block {
+    display: inline-block;
+    width: 230px;
+}
+
+.news-block {
+    margin-top: 5px;
+    border: 1px solid #9B726E;
+    margin-bottom: 5px;
+    padding-bottom: 25px;
+}
+
+.list-item {
+    list-style: none;
+    margin-bottom: 2px;
+    padding-inline-start: 0px;
+    padding-left: 15px;
+}
+
+.certification-list {
+    padding-top: 10px;
+}
+
+.news-paragraph {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.certification {
+    margin-top: 5px;
+    border: 1px solid #9B726E;
+    margin-bottom: 5px;
+}
+
+.logo-panel {
+    padding: 20px 30px 20px 30px;
+}
+
+.qui-logo {
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+.footer {
+    background-color: white;
+    background-image: linear-gradient(white, lightgray);
+}
+
+.footer-item {
+    border-left: 1px solid #9B726E;
+    display: inline-block;
+    vertical-align: top;
+    width: 15%;
+    padding: 0 10px 10px 10px;
+}
+
+.footer-item h4 {
+    color: #9B726E;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-bottom: 5px;
+}
+
+.footer-item:nth-child(1) {
+    border-left: none;
+    width: 21%;
+    vertical-align: middle;
+}
+
+
+.footer-list {
+    list-style: none;
+    margin-block-end: 0;
+}
+
+
+.width-100 {
+    width: 100%;
+    padding-top: 30px;
+    padding: 30px 25px 20px 25px;
+}
+
+.declaration-block {
+    padding-top: 34px;
+    padding-bottom: 35px;
+    text-align: right;
+}
